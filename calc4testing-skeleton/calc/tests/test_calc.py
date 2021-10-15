@@ -1,6 +1,4 @@
 import unittest
-import json
-from flask import request, jsonify
 from calc import app
 
 app.testing = True

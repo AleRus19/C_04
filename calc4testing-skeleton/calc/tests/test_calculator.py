@@ -119,10 +119,14 @@ class TestAdd(unittest.TestCase):
         result = c.subtract(1, -2)
         self.assertEqual(result, 3)
 
-    def test_sub_integers_neg_pos(self):
+    def test_sub_integers_neg_pos1(self):
         result = c.subtract(-1, 2)
         self.assertEqual(result, -3)
 
+    def test_sub_integers_neg_pos2(self):
+        result = c.subtract(-1,0)
+        self.assertEqual(result, -1)
 
-if __name__ == "__main__":
-    unittest.main()
+    def test_sub_integers_neg_pos3(self):
+        result = c.subtract(0,-5)
+        self.assertEqual(result, 5)

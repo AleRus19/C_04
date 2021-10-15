@@ -12,8 +12,3 @@ _app = create_app(
     name=_APP_NAME,
     blueprints=blueprints,
 )
-
-if __name__ == "__main__":
-    raise ImportError(
-        "You can't run this application directly! You must use 'flask run'!"
-    )
