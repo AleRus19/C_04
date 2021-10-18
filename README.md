@@ -1,7 +1,7 @@
 # ASE Calc Microservice
 
-[![Coverage Status](https://coveralls.io/repos/github/teto1992/calc2021/badge.svg?branch=main)](https://coveralls.io/github/teto1992/calc2021?branch=main)
-
+[![Build Status](https://app.travis-ci.com/AleRus19/C_04.svg?branch=master)](https://app.travis-ci.com/AleRus19/C_04)
+[![Coverage Status](https://coveralls.io/repos/github/AleRus19/C_04/badge.svg?branch=master)](https://coveralls.io/github/AleRus19/C_04?branch=master)
 ### Setup the environment
 
 To setup the environment, you should follow these steps:
